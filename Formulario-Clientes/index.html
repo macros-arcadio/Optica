@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>Checkout example · Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/checkout/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../img/eyeglasses.svg" alt="" width="72" height="72">
+      <h2>Clientes</h2>
+      <p class="lead">"Alta baja y edicion de clientes"</p>
+    </div>
+    <div class="col-md-12 order-md-1">
+      <h4 class="mb-3">Datos de cliente</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Apellido</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Nombre</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="address2">Barrio <span class="text-muted">*</span></label>
+            <input type="text" class="form-control" id="Barrio" placeholder="Apartment or suite">
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="address2">Direccion <span class="text-muted">*</span></label>
+            <input type="text" class="form-control" id="Direccion" placeholder="Apartment or suite">
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <label for="address2">Departamento <span class="text-muted">*</span></label>
+            <input type="text" class="form-control" id="Departamento" placeholder="depto">
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="email">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="address">Telefono</label>
+          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="address2">Ultimo Doctor <span class="text-muted">*</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+      <div class="mb-3">
+        <label for="address2">Obra Social <span class="text-muted">*</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+      <div class="mb-3">
+        <label for="address2">Ocupacion <span class="text-muted">*</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+      <div class="mb-3">
+        <label for="address2">Fecha ultima Receta <span class="text-muted">(Optional)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+      <div class="mb-3">
+        <label for="address2">Codigo postal <span class="text-muted">(Optional)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+    <div class="row">
+      <div class="col-md-6 mb-3 ">
+        <label for="address2">n° documento<span class="text-muted">(Optional)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+      <div class=" col-md-6 mb-3">
+        <label for="address2">cuit<span class="text-muted">(Optional)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+      </div>
+    </div>
+
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Recetas del cliente</button>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2019 - 2020 producido por Solarsistema</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  <script src="form-validation.js"></script>
+</body>
+
+</html>
